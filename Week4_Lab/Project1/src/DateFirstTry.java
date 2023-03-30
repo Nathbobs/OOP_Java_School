@@ -2,12 +2,10 @@ public class DateFirstTry {
     String month;
     int day;
 
-    /*Write the Code*/
 
     public void makeItNewYears() {
         month = "January";
         day = 1;
-        /*Write the Code*/
     }
 
     public String yellIfNewYear() {
@@ -18,6 +16,5 @@ public class DateFirstTry {
                 return "Not New Year's Day.";
             }
         }
-        /*Write the Code*/
 
 }
