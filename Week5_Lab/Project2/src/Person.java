@@ -15,16 +15,25 @@ public class Person {
 	}
 
 
-	/* Write the Copy Constructor */
-	public Person(Person other) { // a copy constructor to prevent the modification of person 2.
-		name = other.name;
-		born = new Date(other.born);
-		if (other.died == null)
-			died = null;
-		else
-			died = new Date(other.died);
-	}
+	/* Write the Copy Constructor */ //THIS WORKS TOO
+//	public Person(Person other) { // a copy constructor to prevent the modification of person 2.
+//		name = other.name;
+//		born = new Date(other.born);
+//		if (other.died == null)
+//			died = null;
+//		else
+//			died = new Date(other.died);
+//	}
 
+	public Person(Person other) { // a copy constructor to prevent the modification of person 2.
+		if(other == null) {
+			System.out.println("Fatal Error");
+			System.exit(0);
+		}
+		name = other.name; //using the example from the lab material
+		born = other.born;
+
+	}
 
 
 	public void set (String newName, Date birthDate, Date deathDate) {
