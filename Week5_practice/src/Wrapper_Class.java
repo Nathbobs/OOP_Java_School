@@ -1,4 +1,4 @@
-public class Wrapper_Class {
+/*public class Wrapper_Class {
    /* int myNum = 42;
     Integer myInteger = new Integer(myNum);
     System.out.println(myInteger.toString());*/
@@ -9,7 +9,7 @@ public class Wrapper_Class {
 
     /*boolean myBool = true;
     Boolean myWrapper = new Boolean(myBool);
-    System.out.println(myWrapper.toString());*/
+    System.out.println(myWrapper.toString());
 
     //Java Wrapper Classes allows us to convert primitive data types into objects.
     // Integer, Double and Boolean are wrapper classes for int, double and boolean respectively.
