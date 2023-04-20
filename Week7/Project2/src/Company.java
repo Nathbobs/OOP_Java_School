@@ -1,7 +1,7 @@
 public class Company {
     public static void main(String[] args) {
         Employee emp1 = new Employee("John Smith",1234,"door and panels");
-        Engineer emp2 = new Engineer("Peter Anderson",1432,"fabrication #7","door and panels");
+        Engineer emp2 = new Engineer("Peter Anderson",1432, "fabrication #7", "door and panels");
         Employee emp3 = new Employee("Jane Roberts",2345);
         Employee emp4 = new Employee("John Smith",1234);
         Manager emp5 = new Manager("John Smith",1234,25,"team 7");

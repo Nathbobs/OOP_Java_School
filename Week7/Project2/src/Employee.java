@@ -1,4 +1,8 @@
 public class Employee {
+    protected int officeNum;
+    protected String team;
+    protected String workZone;
+    protected String project;
     private String name;
     private int employeeNum;
     private String department = "No Dept";
@@ -48,7 +52,7 @@ public class Employee {
         else if(getClass() !=obj.getClass()) return false;
         else{
             Employee otherEmp = (Employee)obj;
-            return (name.equals(otherEmp.name) && )
+            return (name.equals(otherEmp.name) && (employeeNum == otherEmp.employeeNum) );
         }
 
 
