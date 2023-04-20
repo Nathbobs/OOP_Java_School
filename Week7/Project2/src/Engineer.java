@@ -15,14 +15,14 @@ public class Engineer extends Employee {
         else {
             Employee otherEmp = (Employee) obj;
             return (getName().equals(otherEmp.getName()) && (getEmployeeNum() == otherEmp.getEmployeeNum()) && (workZone.equals(otherEmp.workZone) && project.equals(otherEmp.project)));
-            /* Write the code */
+
 
         }
-        /* Write the code */
+
     }
 
     public String toString() {
-        return ("Name : " + getName() + "\nLocation : " + getDepartment() + ", " + workZone);
-        /* Write the code */
+        return ("Name : " + getName() + "\nEmp# : " + getEmployeeNum() +"\nLocation : " + getDepartment() + ", " + workZone);
+
     }
 }

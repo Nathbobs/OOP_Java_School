@@ -7,7 +7,6 @@
     <list default="true" id="cedb4cc9-ad70-41d9-8b57-1664d6b59229" name="Changes" comment="Project 1 Lab 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project2/src/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2/src/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project2/src/Engineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2/src/Engineer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project2/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2/src/Manager.java" afterDir="false" />
     </list>

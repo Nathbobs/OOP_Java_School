@@ -1,5 +1,7 @@
 public class Company {
     public static void main(String[] args) {
+        System.out.println("Name: Nathaniel Abegunde 		Student Number: 2022055741");
+        System.out.println("----------------------------------------------------" );
         Employee emp1 = new Employee("John Smith",1234,"door and panels");
         Engineer emp2 = new Engineer("Peter Anderson",1432, "fabrication #7", "door and panels");
         Employee emp3 = new Employee("Jane Roberts",2345);

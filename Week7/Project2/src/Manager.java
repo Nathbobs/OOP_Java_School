@@ -31,7 +31,7 @@ public class Manager extends Employee {
         else {
             Employee otherEmp = (Employee) obj;
             return (getName().equals(otherEmp.getName()) && (getEmployeeNum() == otherEmp.getEmployeeNum()) && (officeNum == (otherEmp.officeNum) && team.equals(otherEmp.team) ));
-            /* Write the code */
+
 
         }
     }
