@@ -7,25 +7,29 @@ public class Course {
 	public boolean isValid;//used to determine whether a valid subject slot is available or not.
 
 	public Course() {
-		Course name = new Course();
-		Course professor = new Course();
-		Course roomNumber = new Course();
+		name = "----";
+		professor = "";
+		roomNumber = "";
+		isValid = true;
 	}
 
-	public Course(String name, String tutor, String room) {
+	public Course(String name, String tutor, String room) { ///this is proven to be equals to null(correct later)
 		name = this.name;
-		tutor = professor;
-		room = roomNumber;
+		tutor = this.professor;
+		room = this.roomNumber;
 
 	}
 
 	public Course(String name) {
+
 		name = this.name;
 	}
 
 	public Course(Course copy) {
-
 		name = copy.name;
+		professor = copy.professor;
+		roomNumber = copy.roomNumber;
+		isValid = copy.isValid;
 	}
 	public String getStateProfessor() {
 		return professor ;
@@ -47,13 +51,10 @@ public class Course {
 	}
 
 	public String toString() {
-		name = name.toString();
-		return name;
+		return "Name : " + name;
 	}
 
 	public String getDetails() {
-		String details = (name + professor + roomNumber.toString() );
-
-		return details;
+		return "Name : " + name + " \n" +"Tutor : " + professor + "\n"+ "Room : " + roomNumber;
 	}
 }
