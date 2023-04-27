@@ -13,37 +13,38 @@ public class Course {
 		isValid = true;
 	}
 
-	public Course(String name, String tutor, String room) { ///this is proven to be equals to null(correct later)
-		name = this.name;
-		tutor = this.professor;
-		room = this.roomNumber;
+	public Course(String name, String professor, String room) { ///this is proven to be equals to null(correct later)
+		this.name = name;
+		this.professor = professor;
+		this.roomNumber = room;
 
 	}
 
 	public Course(String name) {
-
-		name = this.name;
+		this.name = name;
 	}
 
 	public Course(Course copy) {
-		name = copy.name;
-		professor = copy.professor;
-		roomNumber = copy.roomNumber;
-		isValid = copy.isValid;
+		this.name = copy.name;
+		this.professor = copy.professor;
+		this.roomNumber = copy.roomNumber;
+		this.isValid = copy.isValid;
 	}
-	public String getStateProfessor() {
+	public String getProfessor() {
 		return professor ;
 	}
-	public String getStateName() {
+	public String getName() {
 		return name ;
 	}
-	public String getStateRoomNumber() {
+	public String getRoomNumber() {
 		return roomNumber ;
 	}
 
-	public void setState(String tutor, String room) {
-		tutor = this.professor;
-		room = this.roomNumber;
+	public void setProfessor(String professor) {
+		this.professor = professor ;
+	}
+	public void setRoomNumber(String room) {
+		this.roomNumber = room;
 	}
 
 	public boolean equals(Course s) {
@@ -51,7 +52,7 @@ public class Course {
 	}
 
 	public String toString() {
-		return "Name : " + name;
+		return name;
 	}
 
 	public String getDetails() {
