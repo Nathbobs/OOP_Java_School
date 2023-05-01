@@ -1,5 +1,4 @@
 import java.util.Calendar;
-
 public class TimeTable {
 	Course[][] timeTable = new Course[5][10];
 	Course subject = new Course();
@@ -9,78 +8,87 @@ public class TimeTable {
 	}
 
 	public TimeTable() {
+		timeTable = new Course[5][10];
 		initialize();
 	}
+
 
 	private void initialize() {
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 10; j++) {
 				if (j == 3) {
-					timeTable[i][j] = new Course("LUNCH", "", "");
-					timeTable[i][j].isValid = false;
+					timeTable[i][j] = new Course("LUNCH", "LUNCH", "LUNCH");
+					timeTable[i][j].getIsValid(false);
 				} else if (j == 7) {
-					timeTable[i][j] = new Course("DINNER", "", "");
-					timeTable[i][j].isValid = false;
+					timeTable[i][j] = new Course("DINNER", "DINNER", "DINNER");
+					timeTable[i][j].getIsValid(false);
 				} else {
-					timeTable[i][j] = new Course("----", "", "");
-					timeTable[i][j].isValid = true;
+					timeTable[i][j] = new Course("----", "----", "----");
+					timeTable[i][j].getIsValid(true);
 				}
 			}
 		}
 	}
 
-	public String getSchedule(String day, int period) {
-		int dayIndex = DAYS.valueOf(day.toUpperCase()).ordinal();
-		Course course = timeTable[dayIndex][period - 1];
-		return "At that time you have: " + course.getDetails();
+	public String getSchedule(DAYS day, int period) {
+		String output = "At that time you have:\n";
+		output += timeTable[day.ordinal()][period].getDetails();
+		return output;
 	}
 
-	public boolean setSchedule(String day, int period, String name, String tutor, String room) {
-		int dayIndex = DAYS.valueOf(day.toUpperCase()).ordinal();
-		if (period == 4 || period == 8) {
+	public boolean setSchedule(DAYS day, int period, String name, String tutor, String room) {
+		if (period == 3 || period == 7) {
 			return false;
 		}
-		timeTable[dayIndex][period - 1] = new Course(name, tutor, room);
+		timeTable[day.ordinal()][period].setName(name);
+		timeTable[day.ordinal()][period].setProfessor(tutor);
+		timeTable[day.ordinal()][period].setRoomNumber(room);
+		timeTable[day.ordinal()][period].getIsValid(true);;
 		return true;
 	}
 
 	public String toString() {
-		StringBuilder sb = new StringBuilder();
-		sb.append("TimeTable:\n");
-		for (int i = 0; i < 5; i++) {
-			sb.append(DAYS.values()[i]).append(": ");
-			for (int j = 0; j < 10; j++) {
-				sb.append(timeTable[i][j].name).append(", ");
+		String result = String.format("%-15s%-15s%-15s%-15s%-15s%n", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY");
+		for (int i = 0; i < timeTable[0].length; i++) {
+			String row = "";
+			for (int j = 0; j < timeTable.length; j++) {
+				Course course = timeTable[j][i];
+				String subject = "--------";
+				if (Course.isValid()) {
+					subject = course.getName();
+				} else {
+					subject = course.getName().toUpperCase();
+				}
+				row += String.format("%-15s", subject);
 			}
-			sb.append("\n");
+			result += String.format("%-15s%n", row);
 		}
-		return sb.toString();
+		return result;
 	}
 
-	public String oneDaySchedule(String day) {
-		int dayIndex = DAYS.valueOf(day.toUpperCase()).ordinal();
-		StringBuilder sb = new StringBuilder();
-		sb.append("One Day Schedule for ").append(day.toUpperCase()).append(":\n");
+	public String oneDaySchedule(DAYS day) {
+		String output = day.toString() + "\n";
 		for (int i = 0; i < 10; i++) {
-			sb.append("Period ").append(i + 1).append(": ").append(timeTable[dayIndex][i].name).append(", ")
-					.append(timeTable[dayIndex][i].professor).append(", ").append(timeTable[dayIndex][i].roomNumber)
-					.append("\n");
+			output += timeTable[day.ordinal()][i].getName() + "\n";
 		}
-		return sb.toString();
+		return output;
 	}
 
-	public String subjectSchedule(String sub) {
-		StringBuilder sb = new StringBuilder();
-		sb.append("Subject Schedule for ").append(sub).append(":\n");
+	public String subjectSchedule(String name) {
+		String output = "";
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 10; j++) {
-				if (timeTable[i][j].name.equals(sub)) {
-					sb.append(DAYS.values()[i]).append(" Period ").append(j + 1).append(": ")
-							.append(timeTable[i][j].professor).append("\n");
+				if (timeTable[i][j].getName().equals(name)) {
+					output += "SUBJECT: " + name + "\n";
+					output += "Day : " + DAYS.values()[i] + "\n";
+					output += "Lecture : " + j + "\n";
+					output += "Professor: " + timeTable[i][j].getProfessor() + "\n";
+					output += "Room No : " + timeTable[i][j].getRoomNumber() + "\n";
+					return output;
 				}
 			}
 		}
-		return sb.toString();
+		return output;
 	}
 
 	public Calendar setInputDate() {
@@ -88,9 +96,9 @@ public class TimeTable {
 		Calendar calendar = Calendar.getInstance();
 
 		// Parse the input date string into year, month, and day values
-		int year = Integer.parseInt(date.substring(0, 4));
-		int month = Integer.parseInt(date.substring(4, 6));
-		int day = Integer.parseInt(date.substring(6));
+		int year = Integer.parseInt("". substring(0, 4));
+		int month = Integer.parseInt("".substring(4, 6));
+		int day = Integer.parseInt("".substring(6));
 
 		// Set the parsed year, month, and day values into the Calendar object
 		calendar.set(year, month - 1, day);

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cedb4cc9-ad70-41d9-8b57-1664d6b59229" name="Changes" comment="Project 1 Lab 7">
-      <change afterPath="$PROJECT_DIR$/../../Assignment_1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/Assignment 1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/Assignment 1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/TimeTable$DAYS.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/TimeTable$DAYS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/TimeTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/TimeTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/TimeTableApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/out/production/Assignment_1/TimeTableApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/src/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/src/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/src/TimeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment_1/src/TimeTableApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_1/src/TimeTableApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/nathbobs/IdeaProjects/OOP_Java_School/Week7/Project1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nathbobs/IdeaProjects/OOP_Java_School/Week7/Project1&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

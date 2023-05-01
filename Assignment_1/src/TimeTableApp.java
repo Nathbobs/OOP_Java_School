@@ -1,3 +1,4 @@
+import java.time.DayOfWeek;
 import java.util.Calendar;
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ public class TimeTableApp {
 		boolean check;
 		boolean when = true;
 		do {
-			System.out.println(timeTable.toString());
+//			System.out.println(timeTable.toString());
 			System.out.println("Name: Nathaniel Abegunde 		Student Number: 2022055741");
 			System.out.println("----------------------------------------------------" );
 			System.out.println("===============Main Menu================");
@@ -38,7 +39,7 @@ public class TimeTableApp {
 				System.out.println("Please enter the name of the room ");
 				roomName = keyboard.next();
 
-				check = timeTable.setSchedule(day, period, name, tutorName, roomName);
+				check = timeTable.setSchedule(TimeTable.DAYS.valueOf(day), period, name, tutorName, roomName);
 				if (check == true)
 					System.out.println("Class successfully added");
 				else
@@ -52,7 +53,7 @@ public class TimeTableApp {
 				day = day.toUpperCase();
 				System.out.println("Please enter the period of the class");
 				period = keyboard.nextInt();
-				System.out.println(timeTable.getSchedule(day.toString(), period));
+				System.out.println(timeTable.getSchedule(TimeTable.DAYS.valueOf(day.toString()), period));
 				break;
 
 			}
@@ -77,7 +78,7 @@ public class TimeTableApp {
 					System.out.println("There are no schedule");
 					break;
 				} else {
-					System.out.println(timeTable.oneDaySchedule(weeks[cal.get(Calendar.DAY_OF_WEEK) - 1]));
+					System.out.println(timeTable.oneDaySchedule(TimeTable.DAYS.valueOf(weeks[cal.get(Calendar.DAY_OF_WEEK) - 1])));
 				}
 
 				break;
@@ -90,6 +91,7 @@ public class TimeTableApp {
 			default:
 				System.out.println("Try again");
 			}
+			System.out.println(timeTable.toString());
 		} while (when);
 
 	}
