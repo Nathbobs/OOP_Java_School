@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b7911ec5-b5ea-4e0e-ad7a-837ffd3fc564" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/src/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/src/TimeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment_1/src/TimeTableApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/Project1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/src/TestScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/src/TestScores2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project1/src/TestScores3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/Project2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/src/GradeBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/src/GradeBook1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/src/GradeBookDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week6_Lab/Project2/src/GradeBookDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project1/src/DiscountSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project1/src/DiscountSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project1/src/Mart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project1/src/Mart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project1/src/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project1/src/Sale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/src/DiscountSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project2/src/DiscountSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/src/ExpiredSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project2/src/ExpiredSale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/src/Mart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project2/src/Mart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/src/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project2/src/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +32,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/nathbobs/IdeaProjects/OOP_Java_School/Week7"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
