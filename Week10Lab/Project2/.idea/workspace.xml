@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="20e90cce-bba7-4e2a-a612-d614d728a0a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositiveNumberException.java" afterDir="false" />
+    <list default="true" id="20e90cce-bba7-4e2a-a612-d614d728a0a8" name="Changes" comment="Lab10">
+      <change afterPath="$PROJECT_DIR$/../Project1/src/BadNumberException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/src/PowerFailureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/src/PowerFailureException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/src/SimpleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/src/SimpleException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/src/TooMuchStuffException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/src/TooMuchStuffException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NegativeNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NegativeNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PositiveNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PositiveNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week9Lab/Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week9Lab/Project1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,18 @@
       <option name="presentableId" value="Default" />
       <updated>1683773999063</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lab10">
+      <created>1683774943561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683774943561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab10" />
   </component>
 </project>

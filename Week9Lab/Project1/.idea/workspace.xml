@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faf6955f-7280-4908-bb35-c0fd46ae1237" name="Changes" comment="Project2">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Week7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week10Lab/Project1/src/BadNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10Lab/Project1/src/PowerFailureException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10Lab/Project1/src/PowerFailureException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10Lab/Project1/src/SimpleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10Lab/Project1/src/SimpleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10Lab/Project1/src/TooMuchStuffException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10Lab/Project1/src/TooMuchStuffException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week10Lab/Project2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week10Lab/Project2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/nathbobs/IdeaProjects/OOP_Java_School/Week9Lab/Project1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nathbobs/IdeaProjects/OOP_Java_School/Week9Lab/Project1&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -4,6 +4,7 @@ public class PositiveNumberException extends Exception {
     }
 
     public PositiveNumberException(String message) {
-        /* your code */
+        super(message);
+        /* my code */
     }
 }

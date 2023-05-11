@@ -7,6 +7,8 @@ public class SimpleException {
         while(true) {
             try {
                 Scanner keyboard = new Scanner(System.in);
+                System.out.println("Name: Nathaniel Abegunde 		Student Number: 2022055741");
+                System.out.println("----------------------------------------------------" );
                 System.out.println("Enter the number 0 - 9");
                 System.out.println("If you enter a negative number, PowerFailureException will occur");
                 System.out.println("If you enter a positive number other than 0 - 9, TooMuchStuffException will occur");
@@ -17,7 +19,7 @@ public class SimpleException {
                 else if (inputNum > 9)
                     throw new TooMuchStuffException(inputNum);
                 else
-                    System.out.println("No exception has been occrued");
+                    System.out.println("No exception has been occurred");
             } catch (PowerFailureException e) {
                 System.out.println(e.getMessage());
             } catch (TooMuchStuffException e) {
