@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d9025b8-8966-406d-959c-f6aeb047ef4a" name="Changes" comment="Project2">
+      <change afterPath="$PROJECT_DIR$/../Project1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Week7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/DiscountSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/src/DiscountSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/Mart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/src/Mart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/src/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/src/Sale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiscountSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiscountSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpiredSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpiredSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
