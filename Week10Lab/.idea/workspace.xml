@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a14d60d-a73e-482d-8ac1-8cac500667e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Week9Lab/Project1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week9Lab/Project2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9Lab/Project2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +21,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/nathbobs/IdeaProjects/OOP_Java_School/Week10Lab"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
