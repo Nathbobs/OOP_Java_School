@@ -3,7 +3,6 @@ public class ChocolateBoiler {
     private boolean boiled;
 
     private ChocolateBoiler() {
-
         /*Change the header*/ //done
         empty = true;
         boiled = false;
