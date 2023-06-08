@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94618f54-7a6d-46e3-bd31-57f6062d7dec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project1/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project1/src/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project1/src/MyCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project1/src/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProdConSelfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProdConTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13Lab/src/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13Lab/src/ContactManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13Lab/src/GenericManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/Week13_practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/src/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week13_practice/src/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week14Lab/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week14Lab/Week14Lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week14Lab/src/ChocolateBoiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week14Lab/src/ChocolateFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
