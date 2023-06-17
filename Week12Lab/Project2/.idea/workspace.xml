@@ -7,9 +7,9 @@
     <list default="true" id="94618f54-7a6d-46e3-bd31-57f6062d7dec" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../../Week14Lab/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Week14Lab/Week14Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week14Lab/src/ChocolateBoiler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Week14Lab/src/ChocolateFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week14Lab/src/ChocolateBoiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week14Lab/src/ChocolateBoiler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
