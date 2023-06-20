@@ -1,0 +1,94 @@
+Name: GASOLINE
+Total Sales: 4300
+VAT: 10%
+Price: 1760
+
+Region: Seoul
+Regional Sales: 1422
+Total Cost: 11299200
+Total Quantity: 7062
+
+Region: Daegu
+Regional Sales: 1440
+Total Cost: 11745600
+Total Quantity: 7341
+
+Region: Daejeon
+Regional Sales: 1411
+Total Cost: 11328000
+Total Quantity: 7080
+
+Region: Gwangju
+Regional Sales: 27
+Total Cost: 238400
+Total Quantity: 149
+
+Region: Busan
+Regional Sales: 0
+Total Cost: 0
+Total Quantity: 0
+
+=================================
+Name: DIESEL
+Total Sales: 4300
+VAT: 10%
+EnvTax: 0%
+Price: 1320
+
+Region: Seoul
+Regional Sales: 1402
+Total Cost: 8394000
+Total Quantity: 6995
+
+Region: Daegu
+Regional Sales: 1438
+Total Cost: 8665200
+Total Quantity: 7221
+
+Region: Daejeon
+Regional Sales: 1408
+Total Cost: 8355600
+Total Quantity: 6963
+
+Region: Gwangju
+Regional Sales: 52
+Total Cost: 312000
+Total Quantity: 260
+
+Region: Busan
+Regional Sales: 0
+Total Cost: 0
+Total Quantity: 0
+
+=================================
+Name: BIOFUEL
+Total Sales: 4300
+Discount: 1000
+Price: 1000
+
+Region: Seoul
+Regional Sales: 1476
+Total Cost: 15048000
+Total Quantity: 7524
+
+Region: Daegu
+Regional Sales: 1422
+Total Cost: 14642000
+Total Quantity: 7321
+
+Region: Daejeon
+Regional Sales: 1402
+Total Cost: 13782000
+Total Quantity: 6891
+
+Region: Gwangju
+Regional Sales: 0
+Total Cost: 0
+Total Quantity: 0
+
+Region: Busan
+Regional Sales: 0
+Total Cost: 0
+Total Quantity: 0
+
+=================================

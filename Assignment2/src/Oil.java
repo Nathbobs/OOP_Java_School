@@ -60,9 +60,11 @@ public abstract class Oil  implements Comparable {
         return Integer.compare(((Oil) obj).numSales, this.numSales); //SOLVED partially.
     }
 
-    public synchronized void addSale(Sale s) { //SOLVED
+    public synchronized void addSale(Sale s) { //corrected
+        if ( numSales < sales.length){
         // TODO Auto-generated method stub
         sales[numSales++] = s;
+    }
     }
 
 }

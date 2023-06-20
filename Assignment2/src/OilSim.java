@@ -62,9 +62,10 @@ public class OilSim {
 //                        break;
                     default:
                         if (inputStream.hasNextInt()) {
-                            String regionName = tmpToken;
+                           // String regionName = tmpToken; //to be corrected
                             int regionNum = inputStream.nextInt();
-                            this.regions[tmpRegion++] = new Region(regionName, regionNum, overallSales, oiltypes);
+                            //this.regions[tmpRegion++] = new Region(regionName, regionNum, overallSales, oiltypes); //to be corrected
+                            this.regions[tmpRegion++] = new Region(tmpToken, regionNum, overallSales, oiltypes); //correction
                         }
                         break; //SOLVED partially too
 
@@ -78,15 +79,19 @@ public class OilSim {
 
     public void saveData() {
         Arrays.sort(oiltypes);
+
         try {
             PrintWriter outputStream = new PrintWriter(new FileOutputStream(outputFile));
+            System.out.println("----------------------------------");
+            System.out.println("Name: Nathaniel Abegunde 		Student Number: 2022055741");
+            System.out.println("----------------------------------");
             for(int i=0; i<oiltypes.length; i++) {
                 outputStream.println(oiltypes[i].toString());
                 for(int j=0; j<regions.length; j++) {
-                    outputStream.println("Region: " + regions[j].getRegionName());
-                    outputStream.println("Total Sales: " + regions[j].totalSales(regions[j].getRegionNum()));
-                    outputStream.println("Total Cost: " + regions[j].totalCost(regions[j].getRegionNum()));
-                    outputStream.println("Total Quantity: " + regions[j].totalQuantity(regions[j].getRegionNum()));
+                    outputStream.println("\nRegion: " + regions[j].getRegionName());
+                    outputStream.println("Regional Sales: " + oiltypes[i].totalSales(regions[j].getRegionNum()));
+                    outputStream.println("Total Cost: " + oiltypes[i].totalCost(regions[j].getRegionNum()));
+                    outputStream.println("Total Quantity: " + oiltypes[i].totalQuantity(regions[j].getRegionNum()));
                 }
                 outputStream.println("\n=================================");
             }
